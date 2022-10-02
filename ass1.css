@@ -41,17 +41,38 @@ text-decoration: none;
 #navbar a:hover{
     color:#8B8BAE;
 }
-#arthead{
 
-    font-size: 70px;
-    color: #C5FFFD;
-    font-family:sans-serif
+
+#profile
+
+{
+    margin-top: 0%;
+float:right;
+width:62.5%;
+position: relative;
+
+}
+
+#articletitle{
+    margin-top: 50px;
+    position: absolute;
+    font-size: 120px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+   letter-spacing: -0.4px;
+    word-spacing: 1.2px;
+    font-weight: 700;
+   font-style: italic;
+   text-transform: none;
+    color:#C5FFFD;
+
+
 }
 
 #articleP{
-
-font-size: 40px;
-color:#8B8BAE;
-margin-top:10%;
-
+color:white;
+    float:left;
+    margin-top:13%;
+    font-size:40px;
+    position:absolute;
+    
 }
