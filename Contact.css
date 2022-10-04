@@ -92,3 +92,9 @@
     position:absolute;
     
     }
+
+    input[type=submit]:hover{
+cursor:pointer;
+color:#8B8BAE;
+
+    }
