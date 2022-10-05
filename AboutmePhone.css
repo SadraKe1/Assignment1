@@ -29,15 +29,15 @@ width:105%
 
 #navbar ul{
     text-align: center;
-    margin-left: 6%;
+    margin-left: 1%;
     }
     
     
     #navbar li
     {
     display: inline-block;
-    margin-right: 10%;
-    font-size: 250%;
+    margin-right: 2%;
+    font-size: 120%;
     font-family: Arial, Helvetica, sans-serif;
     }
 
@@ -54,7 +54,7 @@ text-decoration: none;
 #profile
 
 {
-    margin-top: 0%;
+    margin-top: 35%;
 float:right;
 width:62.5%;
 position: relative;
@@ -62,7 +62,7 @@ position: relative;
 }
 
 #articletitle{
-    margin-top: 2%;
+    margin-top: 1.5%;
     position: absolute;
     font-size: 600%;
     font-family: "Comic Sans MS", cursive, sans-serif;
@@ -78,16 +78,17 @@ position: relative;
 
 #intro{
     position: absolute;
-    top:53%;
-    left:10%;
+    top:30%;
+    left:3%;
     display: block;
+    width:50%;
     
     }
 #articleP{
 color:white;
     float:left;
-    margin-top:9%;
-    font-size:250%;
+    margin-top:15%;
+    font-size:100%;
     position:absolute;
     
 }

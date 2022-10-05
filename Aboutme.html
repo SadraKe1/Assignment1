@@ -2,8 +2,18 @@
 <html> 
 <head> 
 <meta charset="UTF-8"> 
-<link href="Aboutme.css" rel="stylesheet" type="text/css"> 
+
 <title> My Portfolio </title> 
+
+<link href="Aboutme.css" rel="stylesheet" type="text/css" media="only screen and 
+(min-width:960px)"> 
+<!-- tablet style sheet--> 
+<link href="AboutmeTablet.css" rel="stylesheet" type="text/css" media="only screen and 
+(min-width:481px) and (max-width:960px)"> 
+<!-- phone style sheet--> 
+<link href="AboutmePhone.css" rel="stylesheet" type="text/css" media="only screen and 
+(max-width:480px)">
+
 
 </head> 
 <body>
@@ -13,10 +23,10 @@
  </header>
  <nav id="navbar">
 <ul>
- <li><a href="ass1.html">Home</a></li>
- <li><a href="Aboutme.html">About Me</a></li>
- <li><a href="">Projects Page</a></li>
- <li><a href="Contact.html">Contact me</a></li>
+   <li><a href="ass1.html">Home</a></li>
+   <li><a href="Aboutme.html">About Me</a></li>
+   <li><a href="Project.html">Projects Page</a></li>
+   <li><a href="Contact.html">Contact me</a></li>
 </ul>
  </nav>
  <aside id="profile">
@@ -24,19 +34,25 @@
    
 
 </aside>
-
+<video id="intro" width="700" height="400" controls muted autoplay>
+   <source src="intro.mp4" type="video/mp4">
+</video>
 
 <article>
 <h4 id="articletitle">About Me</h4>
 <p id="articleP"> This section of my website displays all the information about me! <br> Besides school works, I like to play video games
    and soccer. <br> Here is a video about me as well! </p>
-<video id="intro"width="320" height="240" controls muted autoplay>
-   <source src="intro.mp4" type="video/mp4">
-</video>
+
 
 </article>
-
+<footer>
+   <p> &copy;2022 Created by Sadra Keshavarzsafiei with VSC</p>
+   <a href="Contact.html" id="contactme">Contact me</a>
+ </footer>
 
 
 </body> 
+
+
+
 </html> 
