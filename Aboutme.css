@@ -6,7 +6,7 @@ height:120px;
 background-color: rgb(0, 0, 0);
 
 }
-
+/*used html as a selector to increase is height*/
 html{
     height:115%;
     width:100%;
@@ -26,7 +26,7 @@ height:100%;
 position: relative;
 width:105%
 }
-
+/*navigation bar design*/
 #navbar ul{
     text-align: center;
     margin-left: 6%;
@@ -75,7 +75,7 @@ position: relative;
 
 
 }
-
+/*video design*/
 #intro{
     position: absolute;
     top:53%;
@@ -104,7 +104,7 @@ width:100%;
 text-align: center;
 
 }
-
+/*contactme is the id for the text at footer to contact me*/
 #contactme{
 
 
